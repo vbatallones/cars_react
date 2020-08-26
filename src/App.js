@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Ferrari-Logo.jpg';
 import './App.css';
-
+import Ferrari from './Ferrari'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <br />
+        <br />
+        <br />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.ferrari.com/en-US"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn about more Cherry Red Ferrari
         </a>
       </header>
+      <Ferrari />
     </div>
   );
 }
